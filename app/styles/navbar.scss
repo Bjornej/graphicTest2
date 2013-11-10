@@ -1,0 +1,61 @@
+.navbar {
+    color:white;
+    background-color: $baseColor;
+    border:none;
+    border-radius:0;
+}
+
+.nav li a {
+    padding:15px 35px;
+}
+
+.navbar-default {
+    .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+        color:white;
+    }
+}
+
+.navbar-default .navbar-nav {
+    li {
+        a,a:hover {
+            color:white ;
+        }
+
+        &.active {
+            a {
+                color:white;
+                background-color: darken($baseColor,10%);
+
+                &:hover {
+                    color:white;
+                    background-color: darken($baseColor,10%);
+                }
+            }
+        }
+    }
+
+    .dropdown {
+        a .caret {
+            border-top-color: white;
+            border-bottom-color: white;
+        }
+
+        a:hover .caret {
+            border-top-color: white;
+            border-bottom-color: white;
+        }
+    }
+}
+
+.secondary {
+    margin-top:-20px;
+    background-color: $secondaryColor;
+    color:$secondaryTextColor;
+
+
+    .navbar-text {
+        font-size: 20px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+}
