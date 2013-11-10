@@ -3,6 +3,12 @@
     background-color: $baseColor;
     border:none;
     border-radius:0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    top: 0;
 }
 
 .nav li a {
@@ -48,10 +54,15 @@
 }
 
 .secondary {
-    margin-top:-20px;
+    margin-bottom:0;
     background-color: $secondaryColor;
     color:$secondaryTextColor;
-
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    top: 50px;
 
     .navbar-text {
         font-size: 20px;
